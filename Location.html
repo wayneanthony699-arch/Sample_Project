@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location & Contact</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <nav class="navbar">
+      <a href="homepage.html" class="logo">MyShop</a>
+      <ul>
+        <li><a href="homepage.html">Home</a></li>
+        <li><a href="information.html">Products</a></li>
+        <li><a href="location.html" class="active">Contact</a></li>
+        <li><a href="login.html">Logout</a></li>
+      </ul>
+    </nav>
+
+    <section class="location-section">
+      <h2>Contact Us</h2>
+
+      <div class="contact-container">      
+        <div class="contact-info">
+          <h3>Get in Touch</h3>
+          <p>
+            <strong>Phone:</strong> +95 9 123 456 789
+          </p>
+
+          <p>
+            <strong>Email:</strong> info@myshop.com
+          </p>
+
+          <p>
+            <strong>Address:</strong> No.123, Main Street, Yangon, Myanmar.
+          </p>
+
+          <h3>Our Location</h3>
+
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3554.9458860497066!2d96.12745353850758!3d16.797320153460987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1eb158c7d275d%3A0xd5470acc436d00b9!2sQ4WH%2BV3X%2C%20Yangon!5e0!3m2!1sen!2smm!4v1793096428679!5m2!1sen!2smm" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              width="500px"
+              height="300px">
+            </iframe>
+          </div>
+          
+        </div>
+
+        <div class="contact-form-container">
+          <h3>Send a Message</h3>
+          <form action="#">
+            <label for="c-name">Name</label>
+            <input type="text" id="c-name" placeholder="Your name" required />
+
+            <label for="c-email">Email</label>
+            <input type="email" id="c-email" placeholder="Your email" required/>
+
+            <label for="c-message">Message</label>
+            <textarea id="c-message" rows="5" placeholder="Your message..." required></textarea>
+
+            <button type="submit" class="btn" style="border-radius: 5px">Send Message</button>
+          </form>
+        </div>
+
+      </div>
+
+    </section>
+
+    <footer class="footer">
+      <p>&copy; 2024 MyShop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
